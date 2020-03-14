@@ -28,14 +28,16 @@ python run_baseline.py --train true --elmo false --task conll03_en_ner --at true
 Run DATNet-P model on CoNLL-2003 English NER (OntoNotes NER as source) using ELMo (`--elmo true`), adversarial training 
 (`--at true`), share word embeddings (`--share_word true`). More parameters setting in [run_datnetp.py](/run_datnetp.py).
 ```shell script
-python run_datnetp.py --src_task ontonotes_ner --tgt_task conll03_en_ner --elmo true --at ture --share_word true
+python run_datnetp.py --src_task ontonotes_ner --tgt_task conll03_en_ner --elmo true --at ture \
+                      --share_word true
 ```
 
 Similarly, run DATNet-F model on CoNLL-2003 English NER (OntoNotes NER as source) using ELMo (`--elmo true`), adversarial 
 training (`--at true`), share word embeddings (`--share_word true`). More parameters setting in 
 [run_datnetf.py](/run_datnetf.py).
 ```shell script
-python run_datnetf.py --src_task ontonotes_ner --tgt_task conll03_en_ner --elmo true --at ture --share_word true
+python run_datnetf.py --src_task ontonotes_ner --tgt_task conll03_en_ner --elmo true --at ture \
+                      --share_word true
 ```
 
 **Note**: to obtain the main results of Table 2 in "Dual Adversarial Neural Transfer for Low-Resource Named Entity 
