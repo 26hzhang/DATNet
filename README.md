@@ -39,7 +39,7 @@ python run_datnetf.py --src_task ontonotes_ner --tgt_task conll03_en_ner --elmo 
 ```
 
 **Note**: to obtain the main results of Table 2 in "Dual Adversarial Neural Transfer for Low-Resource Named Entity 
-Recognition", please download the DATNet codes (init version) and trained weights, which are available on 
+Recognition", you can download the DATNet codes (init version) and trained weights, which are available on 
 [Box Drive (DATNet)](https://app.box.com/s/d7nuslxqccgtbct06vrzvtpbz7a3rtw8), and following the provided 
 [instructions](https://app.box.com/s/toa8ncdp2hyk81qfeyqbsule2864zkky) to do evaluations. The pre-trained word 
 embeddings are available [here](http://www.limteng.com/research/2018/05/14/pretrained-word-embeddings.html).
