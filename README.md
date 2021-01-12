@@ -64,11 +64,13 @@ If you feel this project helpful to your research, please cite our work.
 and
 ```
 @article{8778733,
-    author={J. T. {Zhou} and H. {Zhang} and D. {Jin} and X. {Peng}},
-    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-    title={Dual Adversarial Transfer for Sequence Labeling},
-    year={2019},
-    doi={10.1109/TPAMI.2019.2931569},
-    ISSN={1939-3539}
+  author={J. T. {Zhou} and H. {Zhang} and D. {Jin} and X. {Peng}},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Dual Adversarial Transfer for Sequence Labeling}, 
+  year={2021},
+  volume={43},
+  number={2},
+  pages={434-446},
+  doi={10.1109/TPAMI.2019.2931569}
 }
 ```
